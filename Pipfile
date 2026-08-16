@@ -1,0 +1,33 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+# Environment.
+environs = "*"
+python-dotenv = "*"
+# Computer Vision.
+ultralytics = "*"
+opencv-python = "*"
+
+[dev-packages]
+# Formatters.
+isort = "*"
+# Linters.
+mypy = "*"
+mccabe = "*"
+pyflakes = "*"
+pydocstyle = "*"
+pycodestyle = "*"
+# Testing.
+pytest = "*"
+coverage = "*"
+# Interactive Notebook.
+ipykernel = "*"
+ipywidgets = "*"
+# Build Tools.
+setuptools = "*"
+
+[requires]
+python_version = "3.13"
