@@ -193,3 +193,6 @@ cache/
 
 # Output folder
 output/
+
+# Local dataset
+local-dataset/
